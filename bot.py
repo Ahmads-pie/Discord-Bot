@@ -140,4 +140,4 @@ async def user_input(ctx):
     await ctx.send("INput")
     s = bot.wait_for('message',timeout=30)
     print(s)
-bot.run('')# pass you bot token
+bot.run('')# pass your bot token
